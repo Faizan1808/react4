@@ -10,12 +10,12 @@
     
 }
 
-a{
+.navbar a{
     text-decoration: none;
     color: whitesmoke;
 }
 
-a:hover{
+.navbar a:hover{
     color: rgb(212, 158, 185);
 }
 
@@ -29,7 +29,12 @@ a:hover{
     text-align: left;
 }
 
-.student-head{
+.main{
+    background-image: linear-gradient(rgb(96, 195, 234),pink, whitesmoke);
+    height: 100vh;
+}
+
+.table{
     display: flex;
     gap: 9rem;
     margin-left: 150px;
@@ -43,7 +48,7 @@ a:hover{
     
 }
 
-.student-head p{
+/* .student-head p{
     margin-left: 5px;
 }
 
@@ -56,20 +61,20 @@ a:hover{
     gap: 9.8rem;
     border-bottom: 1px solid black;
     margin-left: 150px;
-    /* margin-top: 50px; */
+    margin-top: 50px;
     background-color: white;
     width: 65rem;
 }
 
 .student-detail .name{
     margin-right: 210px;
-}
+} */
 
-.top{
+.title{
     display: flex;
 }
 
-.top button{
+.main button{
     position: absolute;
     right: 100px;
     top: 80px;
@@ -79,3 +84,63 @@ a:hover{
     font-size: 18px;
     cursor: pointer;
 }
+
+/* hr{
+    width: 313%;
+} */
+
+.table th,tr{
+    width: 10rem;
+    border-collapse: collapse;
+    
+    
+}
+
+.table{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.table th,td{
+    height: 2.5rem;
+
+}
+
+.table .name{
+    width: 20rem;
+    text-align: left;
+}
+
+.fields{
+    background-image: linear-gradient(rgb(96, 195, 234),pink, whitesmoke);
+    height: 100vh;
+    
+}
+
+.fields div{
+    gap: 20px;
+    position: relative;
+    top: 100px;
+
+}
+
+input{
+    width: 200px;
+    height: 30px;
+}
+
+.fields button{
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 150px;
+    
+}
+
+.fields button:last-child{
+    margin-left: 40px;
+}
+
